@@ -9,3 +9,7 @@ All'interno di questa cartella troverai i design pattern da sapere
 # Observer
 
 **Publisher (Observable) + Subscribers (Observers)**
+
+# Decorator
+
+**Component + Decorator** 
