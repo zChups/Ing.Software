@@ -10,6 +10,8 @@ All'interno di questo file troverai i design pattern da sapere
 >Utile per separare algoritmo dalla sua implementazione. Consente di cambiare facilmente
 > strategia senza dover modificare il codice del client che la utilizza.
 
+![](images/Strategy.png)
+
 x esempio:
 - PaymentStrategy -> Strategy Interface
 - PayPalPayment -> Concrete Strategy
@@ -24,6 +26,8 @@ x esempio:
 >Utile per tenere aggiornati gli oggetti quando accade qualcosa che li riguarda.
 > Dipendenza tra oggetti debole e flessibile (basso accoppiamento).
 
+![Observer.png](images%2FObserver.png)
+
 x esempio:
 
 - Observer -> con info dell'observer
@@ -36,6 +40,8 @@ x esempio:
 >Utile per aggiungere responsabilità in più agli oggetti in maniera dinamica. I decoratori forniscono
 > un'alternativa flessibile e dinamica alle sottoclassi per estendere le proprie funzionalità
 > e comportamenti.
+
+![Decorator.png](images%2FDecorator.png)
 
 x esempio:
 
@@ -51,6 +57,8 @@ x esempio:
 **Product + Factory**
 > Utile per incapsulare i dati. Fornisce un'interfaccia per la creazione di un oggetto in una 
 > classe madre, ma permette alle sottoclassi di alterare il tipo di oggetto che verrà creato.
+
+![Factory.png](images%2FFactory.png)
 
 x esempio:
 
@@ -68,10 +76,17 @@ x esempio:
 > o dipendenti senza specificare le classi concrete.
 > 
 > Va utilizzato se si desidera fornire una libreria di classi per creare diverse famiglie di oggetti.
+
+![AbstractFactory.jpeg](images%2FAbstractFactory.jpeg)
+
 ****
 # Singleton
 
+
 > Utile per garantire l'esistenza di un'unica istanza di una classe
+
+![SingleTon.png](images%2FSingleTon.png)
+
 ****
 # Command Pattern
 
@@ -85,6 +100,9 @@ x esempio:
 
 > Utile per incapsulare una richiesta come un oggetto, rendendo possibile la parametrizzazione delle richieste
 > e supportare il ripristino delle operazioni
+
+![Command.png](images%2FCommand.png)
+
 ****
 # Adapter Pattern
 
@@ -94,6 +112,8 @@ x esempio:
 
 > Consente a due interfacce incompatibili di lavorare insieme. l'adapter fa da intermediario. 
 > La struttura delle due interfacce non viene modificata.
+
+![Adapter.png](images%2FAdapter.png)
 
 x esempio:
 
@@ -108,6 +128,8 @@ x esempio:
 **Facade + Subsystem**
 
 > Fornisce un'interfaccia semplificata per un sottosistema complesso
+
+![Facade.png](images%2FFacade.png)
 
 x esempio:
 
@@ -124,6 +146,8 @@ x esempio:
 > Utile per definire lo scheletro di un algoritmo nella superclasse, permettendo alle sottoclassi
 > di sovrascrivere passi specifici dell'algoritmo senza modificarne la struttura
 
+![template.png](images%2Ftemplate.png)
+
 x esempio:
 
 - AbstractClass -> con metodi abstract step1() e step2() + templateMethod(){step1();step2();}
@@ -137,6 +161,9 @@ x esempio:
 > Permette di nascondere l’implementazione interna delle strutture dati. 
 > Si appoggia sull’interfaccia Iterator, 
 > la quale ha 3 metodi: hasNext(), next(), remove() (facolattivo).
+
+![Iterator.png](images%2FIterator.png)
+
 ****
 # Composite Pattern
 
@@ -150,6 +177,9 @@ x esempio:
 > 
 > Utilizzato nella gestione di alberi di 
 > oggetti e per strutture di menu nei programmi GUI
+
+![Composite.png](images%2FComposite.png)
+
 ****
 # State Pattern
 
@@ -162,6 +192,8 @@ x esempio:
 > e ogni stato sarà un attributo del dispositivo. 
 > Ogni metodo permetterà poi di cambiare lo stato sulla base 
 > se è avvenuta una certa azione o no
+
+![State.png](images%2FState.png)
 
 # Proxy Pattern
 
